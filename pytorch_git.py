@@ -7,10 +7,10 @@ import torch.optim as optim
 from torch.autograd import Variable
 import torch.nn.functional as tfunc
 import torch.nn as nn
-from PIL import ImageFont, ImageDraw, Image # actually uses Pillow not PIL
+from PIL import ImageFont, ImageDraw, Image
 import random
 
-thisPath = 'PyTorch/3_HundeUndKatzen/'
+thisPath = 'PyTorch/HundeUndKatzen/'
 # define a filename for model saving and loading
 myFileName = "netz_catdog_kernel2.pt"
 
